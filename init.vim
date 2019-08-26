@@ -13,6 +13,8 @@ set ruler
 set autochdir
 set colorcolumn=119
 
+set mouse=a
+
 set clipboard=unnamed
 
 " open terminal with L-t
@@ -28,7 +30,7 @@ Plug 'itchyny/lightline.vim'
 Plug 'tpope/vim-fugitive'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': 'yes \| ./install' }
 Plug 'editorconfig/editorconfig-vim'
-Plug 'airblade/vim-gitgutter'
+"Plug 'airblade/vim-gitgutter'
 Plug 'unblevable/quick-scope'
 Plug 'hynek/vim-python-pep8-indent'
 Plug 'leafgarland/typescript-vim'
